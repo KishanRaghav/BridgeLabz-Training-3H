@@ -11,9 +11,7 @@ public class HeightConverter {
         int feet = (int) (inchesTotal / 12); // Whole feet
         double remainingInches = inchesTotal % 12; // Remaining inches
 
-        System.out.println("Your Height in cm is " + heightCm +
-                           " while in feet is " + feet +
-                           " and inches is " + remainingInches);
+        System.out.println("Your Height in cm is " + heightCm +" while in feet is " + feet +" and inches is " + remainingInches);
 
         
     }
